@@ -1,0 +1,1 @@
+python validate.py -i /workspace/inputs -o /workspace/outputs -m /workspace
