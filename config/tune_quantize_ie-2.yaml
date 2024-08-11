@@ -1,0 +1,19 @@
+load_model_fp: './ckpt/lite_medsam.pth'
+teacher_model_fp: './ckpt/medsam_vit_b.pth'
+save_model_dir: './ckpt/quantized_dist2/ie'
+save_model_name: 'quantized_dist_ie'
+train_dataset_dir: '../dataset/MedSAMLaptop/split_set2/train_ext'
+
+sampler_strategy: 'Min'
+image_size: 256
+bbox_shift: 10
+augment: True
+
+quant_ie: True
+quant_md: False
+train_ie: True
+train_pe: False
+train_md: False
+warmup_epochs: 5
+cosine_epochs: 10
+batch_size: 2
