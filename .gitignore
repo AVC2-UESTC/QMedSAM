@@ -1,0 +1,12 @@
+**/.idea
+**/__pycache__
+WPy64-31180/
+dataset/
+brevitas.test.*
+**.pth
+ckpt/
+**.onnx
+**.bin
+**.xml
+**.npz
+**.tar.gz
