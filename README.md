@@ -1,6 +1,8 @@
 # QMedSAM
 Quantization of MedSAM / LiteMedSAM
 
+Implementation of Paper *Efficient Quantization-Aware Training on Segment Anything Model in Medical Images and Its Deployment*.
+
 ## Environment
 For inference only:
 ```bash
