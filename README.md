@@ -50,3 +50,14 @@ cd docker_python
 docker build -f Dockerfile -t uestcsd .
 docker save uestcsd | gzip -c > uestcsd.tar.gz
 ```
+
+## Citation
+Please cite the following paper if you find the code helpful
+```bibtex
+@misc{2412.11186,
+  Author = {Haisheng Lu and Yujie Fu and Fan Zhang and Le Zhang},
+  Title = {Efficient Quantization-Aware Training on Segment Anything Model in Medical Images and Its Deployment},
+  Year = {2024},
+  Eprint = {arXiv:2412.11186},
+}
+```
