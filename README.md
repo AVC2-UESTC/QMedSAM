@@ -56,10 +56,21 @@ docker save uestcsd | gzip -c > uestcsd.tar.gz
 ## Citation
 Please cite the following paper if you find the code helpful
 ```bibtex
-@misc{2412.11186,
-  Author = {Haisheng Lu and Yujie Fu and Fan Zhang and Le Zhang},
-  Title = {Efficient Quantization-Aware Training on Segment Anything Model in Medical Images and Its Deployment},
-  Year = {2024},
-  Eprint = {arXiv:2412.11186},
+@InProceedings{10.1007/978-3-031-81854-7_9,
+author="Lu, Haisheng
+and Fu, Yujie
+and Zhang, Fan
+and Zhang, Le",
+editor="Ma, Jun
+and Zhou, Yuyin
+and Wang, Bo",
+title="Efficient Quantization-Aware Training on Segment Anything Model in Medical Images and Its Deployment",
+booktitle="Medical Image Segmentation Foundation Models. CVPR 2024 Challenge: Segment Anything in Medical Images on Laptop",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="137--150",
+abstract="Medical image segmentation is a critical component of clinical practice, and the state-of-the-art MedSAM model has significantly advanced this field. Nevertheless, critiques highlight that MedSAM demands substantial computational resources during inference. To address this issue, the CVPR 2024 MedSAM on Laptop Challenge was established to find an optimal balance between accuracy and processing speed. In this paper, we introduce a quantization-aware training pipeline designed to efficiently quantize the Segment Anything Model for medical images and deploy it using the OpenVINO inference engine. This pipeline optimizes both training time and disk storage. Our experimental results confirm that this approach considerably enhances processing speed over the baseline, while still achieving an acceptable accuracy level. The training script, inference script, and quantized model are publicly accessible at https://github.com/AVC2-UESTC/QMedSAM.",
+isbn="978-3-031-81854-7"
 }
 ```
